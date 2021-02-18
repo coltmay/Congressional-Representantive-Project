@@ -46,8 +46,9 @@ ul {
 }
 
 .detailed_info {
+    color: tomato;
     width: 80%;
-    margin: 2em;
+    margin: 1em;
 }
 
 .portrait img {
@@ -79,6 +80,7 @@ ul {
 
 .legislation {
     font-family: Helvetica, Arial, sans-serif;
+    color: tomato;
     padding: 0.75em;
     text-align: center;
     align-content: center;
