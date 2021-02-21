@@ -18,8 +18,14 @@ footer{
 }
 
 ul {
-    list-style-position: inside;
+    list-style-type: none;
 }
+
+a:link, :visited {
+    color: whitesmoke
+}
+
+
 
 
 .rep_name {
@@ -72,7 +78,8 @@ ul {
 .committees {
     font-family: Helvetica, Arial, sans-serif;
     color: whitesmoke;
-    padding: 0.75em;
+    padding-top: 0.85em;
+    padding-bottom: 1.50em;
     text-align: center;
     align-content: center;
     background-color: tomato;
@@ -85,3 +92,11 @@ ul {
     text-align: center;
     align-content: center;
 }
+
+.legislation a:link, .legislation a:visited {
+    color:black;
+}
+
+/* .footer_links {
+
+} */
