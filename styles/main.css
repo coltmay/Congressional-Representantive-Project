@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding-bottom: 0;
+}
+
 header {
     font-family: Helvetica, Arial, sans-serif;
     color: #666666;
@@ -25,9 +30,6 @@ a:link, :visited {
     color: whitesmoke
 }
 
-
-
-
 .rep_name {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bolder;
@@ -52,7 +54,6 @@ a:link, :visited {
 }
 
 .detailed_info {
-    color: tomato;
     width: 80%;
     margin: 1em;
 }
@@ -78,17 +79,15 @@ a:link, :visited {
 .committees {
     font-family: Helvetica, Arial, sans-serif;
     color: whitesmoke;
-    padding-top: 0.85em;
-    padding-bottom: 1.50em;
+    padding: 12em;
     text-align: center;
     align-content: center;
-    background-color: tomato;
+    background-color: tomato;    
 }
 
 .legislation {
     font-family: Helvetica, Arial, sans-serif;
-    color: tomato;
-    padding: 0.75em;
+    padding: 12em;
     text-align: center;
     align-content: center;
 }
@@ -97,6 +96,8 @@ a:link, :visited {
     color:black;
 }
 
-/* .footer_links {
-
-} */
+.footer_links {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
